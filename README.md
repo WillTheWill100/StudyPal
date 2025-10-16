@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# Introduction
+StudyPal is an all in one app that is designed for students. StudyPal has many built in functions that students will need on a day-to-day basis.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Calculator
+- Basic arithmetic operations (+, –, ×, ÷).
+- Logarithmic and advanced math functions.
 
-## Get started
+# Flashcards
+- Create custom flashcards directly in the app.
+- Tap to flip between question and answer.
+- Swipe left/right to move between cards.
 
-1. Install dependencies
+# Scan
+- Capture and scan handwritten notes or textbook pages directly within the app.
 
-   ```bash
-   npm install
-   ```
+# Help Tab
+- Built-in AI integration
 
-2. Start the app
+# Changelog
+(10/08/2025)
+- Project initialized as StudyPal using Expo Go
+- Added navigation tabs (Calculator, Flashcards, Help, etc)
+- Implemented persistent Settings button
 
-   ```bash
-   npx expo start
-   ```
+(10/09/2025)
+- Created Calculator with arithmetic operations
+- Styled buttons and layout for clean usability
 
-In the output, you'll find options to open the app in a
+(10/10/2025)
+- Added Flashcards with:
+   - Flip and swipe gestures
+   - Form for adding cards
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+(10/11/2025)
+- Locked flashcard size and adjusted text scaling
+- Removed header bar while keeping Settings button
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+(10/15/2025)
+- Add logarithmic and advanced calculator operations
+- Implement persistent flashcard storage using AsyncStorage
